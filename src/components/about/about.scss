@@ -1,0 +1,19 @@
+.sectionContainer {
+    .section-description {
+        text-align: left;
+        padding-right: 50px;
+
+        @media only screen and (max-width: 768px) {                
+            padding-right: 0px;
+        }  
+
+        p {
+            line-height: 140%;
+        }
+
+        .title-container:not(:first-child){
+            margin-top: 20px;;
+        }
+    }
+    
+}
